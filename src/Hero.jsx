@@ -3,7 +3,7 @@ import {logo} from './assets';
 export default function Hero() {
 return (
  <header className="w-full flex flex-col justify-center items-center px-4 py-4 md:px-12">
-   <nav className="flex justify-between w-full  pb-4 md:pb-24 ">
+   <nav className="flex justify-between w-full  pb-4 md:pb-12 ">
 <img src={logo} alt=""/>
 <button type="button"
 onClick={()=>{window.open('https://github.com/raamadithyan')}}
